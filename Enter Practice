@@ -1,0 +1,36 @@
+name = input("Enter your name: ")
+def greet(name):
+    print("Hello, " + name + "! How are you?")
+greet(name)
+
+
+ans = input("Are you a student? (yes/no): ")
+if ans.lower() == "no": 
+    print("Please sign up to continue.")
+if ans.lower() == "yes":
+    student_number = input("Enter your student number: ")
+    print("Welcome, " + student_number + "! To lyceum of the Philippines University - Cavite Campus")
+
+
+account_type = input("Are you a student or a teacher? (student/teacher): ")
+if account_type.lower() == "student":
+    print("You have access to student resources.")
+    
+elif account_type.lower() == "teacher":
+    print("You have access to teacher resources.")  
+
+#Display
+
+resources = input("please enter your student id number: ")
+
+if resources == "12345":
+        print("Access granted to student resources.")
+else:
+        print("Access denied. Invalid student ID number.")
+
+resources = input("please enter your teacher id number: ")
+
+if resources == "54321":
+        print("Access granted to teacher resources.")
+else:
+        print("Access denied. Invalid teacher ID number.")  
