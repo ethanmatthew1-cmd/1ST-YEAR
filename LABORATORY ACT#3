@@ -1,0 +1,314 @@
+#TASK 1: IDENTIFY NUMERIC DATA TYPES 
+
+age = 18 
+
+height = 1.67 
+
+temperature = 36.9 
+
+complex_number = 12 + 6j 
+
+ 
+
+print(f'{type(age)}\n{type(height)}\n{type(temperature)}\n{type(complex_number)}') 
+
+ 
+
+#PART B – ARITHMETIC OPERATORS 
+
+a = 12 
+
+b = 5 
+
+ 
+
+print(a+b) 
+
+print(a-b) 
+
+print(a*b) 
+
+print(a/b) 
+
+print(a//b) 
+
+print(a%b) 
+
+print(a**b) 
+
+ 
+
+#PART C – ARITHMETIC OPERATOR APPLICATION 
+
+product1 = 150 
+
+product2 = 275 
+
+product3 = 325 
+
+ 
+
+print(product1 + product2 + product3) 
+
+print((product1 + product2 + product3) / 3) 
+
+print(product3 - product1) 
+
+ 
+
+#PART D – STRING DATA TYPE 
+
+full_name = "Ethan Matthew R. Jaminal" 
+
+ 
+
+print("Full Name:", full_name) 
+
+ 
+
+print("First Character:", full_name) 
+
+print("Last Character:", full_name) 
+
+print("Number of Characters:", len(full_name)) 
+
+print("Uppercase:", full_name.upper()) 
+
+print("Lowercase:", full_name.lower()) 
+
+print("Data Type:", type(full_name)) 
+
+ 
+
+#PART E – LIST DATA TYPE 
+
+favorite_foods = ["Pizza", "Burger", "Cake", "Pasta", "Chicken"] 
+
+ 
+
+print( favorite_foods) 
+
+print( favorite_foods[0]) 
+
+print(favorite_foods[2]) 
+
+print(favorite_foods[-1]) 
+
+print(len(favorite_foods)) 
+
+favorite_foods.append("Sinigang") 
+
+print(favorite_foods) 
+
+print(type(favorite_foods)) 
+
+ 
+
+#PART F – TUPLE DATA TYPE 
+
+subjects = ("compprog", "discrete", "computing", "MMW", "UTS") 
+
+print(subjects) 
+
+print(subjects[0]) 
+
+print(subjects[2]) 
+
+print(subjects[-1]) 
+
+print(len(subjects)) 
+
+print(type(subjects)) 
+
+ 
+
+#PART G – DICTIONARY DATA TYPE 
+
+student = {
+
+ "name": "Ethan Matthew Jaminal", 
+
+ "age": 18, 
+
+ "course": "BSIT", 
+
+ "section": "105", 
+
+ "year_level": 1 
+
+} 
+
+ 
+
+print(student) 
+
+print("Name:", student["name"]) 
+
+print("Age:", student["age"]) 
+
+print("Course", student["course"]) 
+
+print(len(student)) 
+
+student["school"]= "LPU" 
+
+student["section"] = "IT105" 
+
+print("Updated Information:",student) 
+
+print(type(student)) 
+
+ 
+
+#TASK 9: STUDENT GRADES DICTIONARY 
+
+grades = { 
+
+ "Math": 85, 
+
+ "UTS": 90, 
+
+ "CCPROG": 88 
+
+} 
+
+ 
+
+total = 85 + 90 + 88 
+
+average = round(total / 3, 2) 
+
+ 
+
+print("===== STUDENT GRADES =====\n") 
+
+print("MMW: 85") 
+
+print("UTS: 90") 
+
+print("CCPROG: 88\n") 
+
+print(f"Total Grade: {total}") 
+
+print(f"Average Grade: {average}") 
+
+ 
+
+#TASK 10: PERSONAL INFORMATION PROGRAM 
+
+name = "Ethan Matthew R. Jaminal" 
+
+age = 18
+
+height = 1.69
+
+siblings = 1
+
+ 
+
+favorite_foods = ["Pizza", "Burger", "Chicken"] 
+
+favorite_subjects = ("Python", "Database", "Networking") 
+
+ 
+
+grade1 = 85 
+
+grade2 = 90 
+
+grade3 = 88 
+
+ 
+
+numbers = range(1, 6) 
+
+ 
+
+student = { 
+
+ "name": "Ethan Matthew Jaminal", 
+
+ "age": 17, 
+
+ "course": "BSIT", 
+
+ "section": "105" 
+} 
+
+ 
+
+# Arithmetic Calculations 
+
+ 
+
+future_age = age + 5 
+
+height_cm = height * 100 
+
+total_grade = grade1 + grade2 + grade3 
+
+average_grade = total_grade / 3 
+
+ 
+
+# Display Information 
+
+ 
+
+print("===== PERSONAL INFORMATION =====") 
+
+print("Name:", name) 
+
+print("Age:", age) 
+
+print("Height:", height, "meters") 
+
+print("Siblings:", siblings) 
+
+ 
+
+print("\n===== FAVORITE FOODS =====") 
+
+print(favorite_foods) 
+
+ 
+
+print("\n===== FAVORITE SUBJECTS =====") 
+
+print(favorite_subjects) 
+
+ 
+
+print("\n===== STUDENT DICTIONARY =====") 
+
+print(student) 
+
+ 
+
+print("\n===== CALCULATIONS =====") 
+
+print("Age after 5 years:", future_age) 
+
+print("Height in centimeters:", height_cm) 
+
+print("Total Grade:", total_grade) 
+
+print("Average Grade:", round(average_grade, 2)) 
+
+ 
+
+print("\n===== DATA TYPES =====") 
+
+print("Name:", type(name)) 
+
+print("Age:", type(age)) 
+
+print("Height:", type(height)) 
+
+print("Favorite Foods:", type(favorite_foods)) 
+
+print("Favorite Subjects:", type(favorite_subjects)) 
+
+print("Numbers:", type(numbers)) 
+
+print("Student:", type(student)) 
